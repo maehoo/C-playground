@@ -25,9 +25,4 @@ int main(void)
     addarayelem(arr, sizeof(arr)/sizeof(int), 3);
     showarayelem(arr, sizeof(arr)/sizeof(int));
     return 0;
-    /*
-    234
-    456
-    789
-    */
 }
