@@ -8,7 +8,7 @@ int main(void)
     int tnum,i;
     for(i=0;i<=2;i++)
     {
-        tnum= *(ptr1+i); //tnum 안에 ptr1 주소안에 있는 arr[0]의 값인 1이 저장되어있다.
+        tnum= *(ptr1+i); 
         *(ptr1+i)=*(ptr2-i);
          *(ptr2-i) = tnum;     
     }
