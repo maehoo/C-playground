@@ -26,14 +26,14 @@ int main (void)
         
         if(total>=tnum)
         {
-            ptr[b] = 1;
+            *(ptr+b) = 1;
             total-=tnum;
         }
         else
         {
-            ptr[b] =0;
+            *(ptr+b) =0;
         }
-        printf("%d",ptr[b]);
+        printf("%d",*(ptr+b));
         b+=1;
     }
     return 0;
