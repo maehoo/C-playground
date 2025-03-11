@@ -12,5 +12,4 @@ int main(void)
     printf("arr2: %p \n", arr2);
     printf("arr2+1: %p \n", arr2+1);
     return 0;
-
 }
