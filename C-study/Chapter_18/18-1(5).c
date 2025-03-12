@@ -8,7 +8,8 @@ int main(void)
     printf("%d \n", (*(arr+1))[0][1]);
     printf("%d \n", (*(*(arr+1)+0))[1]);
     printf("%d \n", (*(arr[1]+0))[1]);
-    printf("%d \n", *(arr[1][0]+1));
+    printf("%d \n", *(arr[1][0]+1)); 
+    //scanf 로 바꾸려면 주소가 와야하기 때문에 애스터리스크를 빼서 (arr[1][0]+1)로 바꾸면 된다.
     printf("%d \n", (*(arr+1))[0][1]);//arr[x] == *(arr + x)
     return 0;
     //
