@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    char perid[8];
-    char name[20];
+    char perid[7];
+    char name[10];
 
     fputs("주민번호 앞 6자리 입력:",stdout);
     fgets(perid,sizeof(perid),stdin);
