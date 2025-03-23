@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <string.h>
 
-void removebsn(char str[])
-{
-    int len=strlen(str);
-    str[len-1]=0;
-}
 int main(void)
 {
-    char str[100];
-    printf("문자열 입력:");
-    fgets(str,sizeof(str),stdin);
-    printf("길이: %lu, 내용 : %s \n", strlen(str),str);
-    removebsn(str);
-    printf("길이: %lu, 내용: %s \n",strlen(str), str);
+    char str1[20]="1234567890";
+    char str2[20];
+    char str3[5];
+
+    strcpy(str2,str1);
+    puts(str2);
+
+    strncpy(str3,str1,sizeof(str3));
+    puts(str3);
+    /*
+    책에서는 컴파일 결과가 12345???234567890 이렇게 나온다.
+    마지막 5번째 문자가 널 문자가 아니어서 이런 결과가 나온다고 한다.
+    */
+
+    strncpy(str3,str1,sizeof(str3)-1);
+    str3[sizeof(str3)-1]=0;
+    puts(str3);
     return 0;
 }
