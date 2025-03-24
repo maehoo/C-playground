@@ -6,7 +6,10 @@ int main(void)
     char str1[20]="1234567890";
     char str2[20];
     char str3[5];
-
+    /*
+    char str2[20]="hello everyone"; 이라고 선언해도 strcpy(str2,str1);
+    을 하게 되면 원래 선언한 문자열의 길이와 상관없이 str1의 문자열을 복사한다.
+    */
     strcpy(str2,str1);
     puts(str2);
 
