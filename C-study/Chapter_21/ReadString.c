@@ -11,7 +11,7 @@ int main(void)
         printf("Read %d: %s \n", i+1,str);
     }
     return 0;
- }
+}
 /*
 We
 Read 1: We
