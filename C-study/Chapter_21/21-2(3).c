@@ -45,7 +45,7 @@ int main(void)
             }
         }
         break;
-    }// \n이 나오는 i,k 를 구함.
+    }// ' '이 나오는 i,k 를 구함.
     char str3[100], str4[100];
     strncpy(str3,str1,i);
     strncpy(str4,str2,k);
