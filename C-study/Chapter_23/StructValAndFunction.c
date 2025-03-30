@@ -24,4 +24,4 @@ int main(void)
     Point curpos=getcurrentposition();
     showposition(curpos);
     return 0;
-}
+} 
