@@ -11,6 +11,11 @@ void swappoint(Point * ptr1, Point * ptr2)
     Point tpos={ptr2->xpos,ptr2->ypos};
     ptr2->xpos = ptr1->xpos; ptr2->ypos = ptr1->ypos;
     ptr1->xpos = tpos.xpos; ptr1->ypos = tpos.ypos;
+    /*
+    Point temp = *ptr1;
+    *ptr1 = *ptr2;
+    *ptr2 = temp;
+    */
 }
 
 int main(void)
