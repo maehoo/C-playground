@@ -27,5 +27,5 @@ int main(void)
 {
     Person man=readpersoninfo();
     showpersoninfo(man);
-    return 0;
+    return 0; 
 }
