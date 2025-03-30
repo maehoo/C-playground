@@ -25,4 +25,4 @@ int main(void)
     orgsymtrans(&pos);
     showposition(pos);
     return 0;
-}
+} 
