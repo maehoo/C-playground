@@ -11,17 +11,17 @@ void Sound(Syllable sy)
     {
         case Do:
             puts("도"); return;
-            case Re:
+        case Re:
             puts("레"); return;
-            case Mi:
+        case Mi:
             puts("미"); return;
-            case Fa:
+        case Fa:
             puts("파"); return;
-            case So:
+        case So:
             puts("솔"); return;
-            case La:
+        case La:
             puts("라"); return;
-            case Ti:
+        case Ti:
             puts("시"); return;
     }
 }
