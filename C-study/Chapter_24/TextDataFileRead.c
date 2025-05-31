@@ -19,6 +19,7 @@ int main(void)
     printf("%s",str);
     fgets(str,sizeof(str),fp);
     printf("%s",str);
+    //'\n'개행을 기준으로 문자열을 구분한다.
 
     fclose(fp);
     return 0;
